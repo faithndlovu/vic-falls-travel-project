@@ -1,5 +1,5 @@
 body{
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
      background-color: lightsteelblue;
 }
 
@@ -11,8 +11,8 @@ body{
 
 header{
 background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-rgba(0, 0, 0, 0.6),
-url(".../images/vic-Falls1.png"));
+rgba(0, 0, 0, 0.6)),
+url(".../images/vic-Falls1.png");
 background-repeat: no-repeat;
 background-size: cover;
 color: white;
