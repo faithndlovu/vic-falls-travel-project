@@ -10,8 +10,8 @@ body{
 }
 
 header{
-background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-rgba(0, 0, 0, 0.6)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+rgba(0, 0, 0, 0.5)),
 url("../images/vicf.png");
 background-repeat: no-repeat;
 background-size: cover;
@@ -26,13 +26,13 @@ header h1{
    font-weight: 700;
    font-size: 96px;
    line-height: 1;
-   margin: 0;
+   margin: 30px 0;
 }
 header h2{
     font-weight: 400;
     font-size: 40px;
     line-height: 1.5;
-     margin: 30px 0;
+     margin: 0;
 }
  header h3{
     font-weight: 900;
