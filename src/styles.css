@@ -10,9 +10,9 @@ body{
 }
 
 header{
-background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-rgba(0, 0, 0, 0.4)),
-url("../images/vic-Falls1.png");
+background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+rgba(0, 0, 0, 0.6)),
+url("../images/vicf.png");
 background-repeat: no-repeat;
 background-size: cover;
 color: white;
