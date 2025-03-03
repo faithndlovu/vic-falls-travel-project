@@ -9,11 +9,10 @@ body{
     margin: 0 auto;
 }
 
-
 header{
 background-image: linear-gradient(rgba(0, 0, 0, 0.6),
 rgba(0, 0, 0, 0.6),
-url("./images/vic-Falls1.png"));
+url(".../images/vic-Falls1.png"));
 background-repeat: no-repeat;
 background-size: cover;
 color: white;
