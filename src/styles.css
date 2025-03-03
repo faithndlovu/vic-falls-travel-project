@@ -9,6 +9,11 @@ body{
     margin: 0 auto;
 }
 
+.grid{
+  display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
 header{
 background-image: linear-gradient(rgba(0, 0, 0, 0.5),
 rgba(0, 0, 0, 0.5)),
@@ -59,7 +64,52 @@ header h2{
 
  }
 
- @media (max-width: 900px){
+ section{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+
+footer{
+    color: white;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.8),
+    rgba(39, 32, 68, 0.8)),
+    url("../images/vicfall.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+footer h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-right: 20px;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+footer a{
+    color: wheat;
+    opacity: 0.7;
+}
+
+ @media (max-width: 960px){
     header{
         padding: 60px 0;
     }
