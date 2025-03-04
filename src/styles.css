@@ -22,9 +22,7 @@ body{
     grid-template-columns: 1fr 2fr 2fr;
 }
 
-.img-responsive{
-    max-width: 100px;
-}
+
 
 header{
 background-image: linear-gradient(rgba(0, 0, 0, 0.5),
